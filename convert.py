@@ -8,7 +8,7 @@ print("************************** Meu conversor *****************************")
 while True:
     print("\033[33m")
 
-    name_achrives = input('     Insert the name >> ')
+    name_achrives = input('     Informe o nome do arquivo >> ')
     print("\033[m")
 
     video = VideoFileClip(f'{name_achrives}.mp4')
